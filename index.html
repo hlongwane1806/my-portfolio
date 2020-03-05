@@ -372,8 +372,8 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <h2 class="centered">Contact Form</h2>
-          <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
- <!-- <form  name="my-contact"  method="POST" data-netlify="true" class="contact-form "> -->
+          <!-- <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST"> -->
+ <form  name="my-contact"  method="POST" data-netlify="true" class="contact-form ">
 
             <div class="form-group">
               <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" >
@@ -393,9 +393,9 @@
               <div class="validate"></div>
             </div>
             <div data-netlify-recaptcha="true"></div>
-            <div class="loading"></div>
+            <!-- <div class="loading"></div>
             <div class="error-message"></div>
-            <div class="sent-message">Your message has been sent. Thank you!</div>
+            <div class="sent-message">Your message has been sent. Thank you!</div> -->
 
             <div class="form-send">
               <button type="submit" class="btn btn-large">Send Message</button>
@@ -441,7 +441,7 @@
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/php-mail-form/validate.js"></script>
+  <!-- <script src="lib/php-mail-form/validate.js"></script> -->
   <script src="lib/prettyphoto/js/prettyphoto.js"></script>
   
   <script src="lib/hover/hoverdir.js"></script>
