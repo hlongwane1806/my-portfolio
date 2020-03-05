@@ -534,7 +534,9 @@ canvas {
     background: #fce7f1;
     border: 2px solid #fce7f1;
     color: #ee76ad;
-    z-index: 2;
+	z-index: 2;
+	margin-top:2rem;
+	padding:1.2rem 2rem;
 }
 
 .btn.btn-outline-white {
@@ -569,4 +571,21 @@ canvas {
 }
 #particles-js{
 	max-width:100vw;
+}
+
+.contact-details{
+	display: flex;
+	width:100%;
+	flex-direction: row-reverse;
+
+}
+.contact-details >a {
+	font-size:18px ;
+	font-family: "Work Sans",'Lato', sans-serif;
+
+	color:#fff;
+}
+
+.profile-links{
+	margin-top: 4rem;
 }
